@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 // import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Logo from "../assets/logo.png";
+
 import { Link } from "react-scroll";
 import resume from "../assets/resume.pdf";
 
@@ -13,11 +13,11 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[70px] flex justify-between items-center px-4 bg-[#0a192f] border-b-2 border-b-sky-800 text-gray-300">
       <div>
-        <img src={Logo} alt="img" style={{ width: "200px" }} />
+        <h1 class="text-2xl ... italic ... font-bold ...">JEEVANANTHAN</h1>
       </div>
 
       {/* menu */}
-      <ul className="hidden md:flex">
+      <ul className="text-lg ... font-bold ... hidden md:flex">
         <li className="hover:font-bold hover:border-b-2 border-pink-600">
           <Link to="home" smooth={true} duration={500}>
             Home
@@ -97,6 +97,7 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/jeevananthan-p-928045268/"
+              target="_blank"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -105,6 +106,7 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/simplejeeva"
+              target="_blank"
             >
               Github <FaGithub size={30} />
             </a>
