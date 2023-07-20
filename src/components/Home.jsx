@@ -1,5 +1,4 @@
 import React from "react";
-import resume from "../assets/resume.pdf";
 
 const Home = () => {
   return (
@@ -20,8 +19,7 @@ const Home = () => {
         <div className="rounded-md shadow">
           <button className="flex items-center justify-center w-50 p-4 text-base font-medium text-white bg-pink-500 rounded-md hover:bg-pink-600">
             <a
-              href={resume}
-              download={resume}
+              href="https://drive.google.com/file/d/19vJX-G-kQJPiuGnkjcNuCB_KQ6B2T995/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >

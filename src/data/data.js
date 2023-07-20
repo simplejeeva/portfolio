@@ -1,8 +1,7 @@
 import invento from "../assets/projects/Invento.png";
 import expense from "../assets/projects/Moneymanager.png";
 import movie from "../assets/projects/movie.png";
-import calculator from "../assets/projects/calculator.png";
-import Thirukkural from "../assets/projects/Thirukkural.png";
+import blog from "../assets/projects/blog.png";
 
 export const data = [
   {
@@ -33,19 +32,11 @@ export const data = [
   },
   {
     id: 4,
-    name: "Calculator(javascript)",
-    image: calculator,
-    github: "https://github.com/simplejeeva/calculator",
-    backend: "https://github.com/simplejeeva/calculator",
+    name: "BLOG APP",
+    image: blog,
+    github: "https://github.com/simplejeeva/Blog-app",
 
-    live: "https://cerulean-moxie-1d7a57.netlify.app/",
-  },
-  {
-    id: 5,
-    name: "Thirukkural(javascript)",
-    image: Thirukkural,
-    github: "https://github.com/simplejeeva/thirukkural",
-    backend: "https://github.com/simplejeeva/thirukkural",
-    live: "https://ubiquitous-bombolone-f9a3e0.netlify.app/",
+    backend: "https://github.com/simplejeeva/Blog-app/tree/main/backend",
+    live: "https://heroic-parfait-103fc5.netlify.app",
   },
 ];

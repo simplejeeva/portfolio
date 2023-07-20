@@ -4,7 +4,6 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 import { Link } from "react-scroll";
-import resume from "../assets/resume.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -115,8 +114,8 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href={resume}
-              download={resume}
+              href="https://drive.google.com/file/d/19vJX-G-kQJPiuGnkjcNuCB_KQ6B2T995/view?usp=sharing"
+              target="_blank"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
