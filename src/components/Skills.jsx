@@ -5,12 +5,15 @@ import CSS from "../assets/css.png";
 import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
 import Node from "../assets/node.png";
-import GitHub from "../assets/github.png";
+
 import Tailwind from "../assets/tailwind.png";
 import Mongo from "../assets/mongo.png";
 import Bootstrap from "../assets/Bootstrap.png";
 import mysql from "../assets/mysql.png";
 import Mui from "../assets/Mui.png";
+import Express from "../assets/express.png";
+import Aws from "../assets/aws.png";
+
 const Skills = () => {
   return (
     <section
@@ -43,8 +46,8 @@ const Skills = () => {
             <p className="my-4">REACT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={GitHub} alt="HTML icon" />
-            <p className="my-4">GITHUB</p>
+            <img className="w-20 mx-auto" src={Express} alt="HTML icon" />
+            <p className="my-4">EXPRESSJS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Node} alt="HTML icon" />
@@ -57,6 +60,10 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={mysql} alt="HTML icon" />
             <p className="my-4 pt-5">SQL</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Aws} alt="HTML icon" />
+            <p className="my-4 pt-5">AWS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />
