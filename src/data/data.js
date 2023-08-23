@@ -1,7 +1,7 @@
 import invento from "../assets/projects/Invento.png";
 import expense from "../assets/projects/Moneymanager.png";
 import movie from "../assets/projects/movie.png";
-import blog from "../assets/projects/blog.png";
+import ecommerce from "../assets/projects/ecommerce.png";
 import weather from "../assets/projects/weather.png";
 
 export const data = [
@@ -33,12 +33,12 @@ export const data = [
   },
   {
     id: 4,
-    name: "BLOG APP",
-    image: blog,
-    github: "https://github.com/simplejeeva/Blog-app",
+    name: "E-commerce",
+    image: ecommerce,
+    github: "https://github.com/simplejeeva/e-commerce-frontend",
 
-    backend: "https://github.com/simplejeeva/Blog-app/tree/main/backend",
-    live: "https://heroic-parfait-103fc5.netlify.app",
+    backend: "https://github.com/simplejeeva/e-commerce-backend",
+    live: "https://dainty-kleicha-569dca.netlify.app",
   },
   {
     id: 5,
